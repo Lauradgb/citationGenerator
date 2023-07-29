@@ -1,0 +1,51 @@
+@import url("./font.css");
+body{
+    font-family: Poppins;
+    background-color: black;
+}
+
+.container{
+    max-width: 700px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(52, 39, 231);
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.generateCitation{
+    font-size: 2.6rem;
+    color: rgb(52, 38, 253);
+    border: solid 5px;
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.intro{
+    font-style: italic;
+    color: white;
+}
+
+.btnGenerator{
+    border: solid 1px;
+    font-size: 1rem;
+    font-family: Poppins;
+    border: solid 1px white;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(18, 10, 121);
+    transition: all 0.7s;
+}
+
+.btnGenerator:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
